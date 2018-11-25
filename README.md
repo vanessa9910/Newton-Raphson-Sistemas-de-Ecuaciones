@@ -1,4 +1,2 @@
 # Newton-Raphson Sistemas de Ecuaciones
-Este método resueleve sistemas ecuaciones que no sean lineales, el cual da aproximaciones a las soluciones del sistema. Este
-sistema consiste en encontrar dos puntos de intersección con la parábola asociada a la ecuación del sistema. Consiste en iterar
-la función de modo que al aproximar puntos fijos de la función propuesta estamos aproximando a la función real.
+El método iterativo para sistemas de ecuaciones converge linealmente. Como en el método de una incógnita, puede crearse un método de convergencia cuadrática; es decir el método de Newton-Raphson multivariable. A continuación se obtendrá este procedimiento para dos variables; la extensión a tres o más variables es viable generalizando los resultados.Observemos que resolver este sistema de ecuaciones consiste en hallar los puntos (x0,y0) de intersección de la parábola asociada a la primera ecuación.
